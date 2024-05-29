@@ -1,3 +1,6 @@
+#This requires importing both hangman_words.py and hangman_art.py
+#Link to hangman_words.py: https://replit.com/@devmoh04/DAY7-Hangman-Game#hangman_art.py
+#Link to hangman_art.py:  https://replit.com/@devmoh04/DAY7-Hangman-Game#hangman_words.py
 import random
 import hangman_words
 import hangman_art
@@ -51,6 +54,7 @@ while not end_of_game:
         print("YOU WIN!!!")
 
     print(hangman_art.stages[lives])
+    
 
     
     
