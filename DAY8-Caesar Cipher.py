@@ -34,7 +34,8 @@ while a==1:
         for char in cipher_word:
             pos=alphabets.index(char)
             newpos=pos-shift_amt
-            p_text+=alphabets[newpos]
+            new_char=alphabets[newpos]
+            p_text+=new_char
         print("The decoded text is:",p_text) 
     
     if to_do=="encode":
